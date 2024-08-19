@@ -1,6 +1,6 @@
 # AgroM²
 
-AgroM² é uma plataforma inovadora dedicada a transformar o setor agrícola utilizando tecnologias de visão computacional, inteligência artificial e ciência de dados. Nossa solução permite identificar sintomas foliares na soja e otimizar a aplicação de produtos químicos com base em dados precisos e análises avançadas.
+AgroM² é uma plataforma inovadora dedicada a transformar o setor agrícola utilizando tecnologias de visão computacional, inteligência artificial e ciência de dados. Nossa solução permite identificar sintomas foliares na soja e otimizar a aplicação de  Defensivos agrícolas com base em dados precisos e análises avançadas.
 
 ## Funcionalidades Principais
 
