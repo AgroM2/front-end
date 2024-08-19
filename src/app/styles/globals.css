@@ -31,3 +31,22 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Custom Tailwind CSS Components */
+
+img {
+  height: auto;
+  width: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header Styles */
+.header {
+  @apply z-50 fixed bg-[#ECB417]  w-full items-center justify-evenly font-mono text-sm lg:flex;
+}
+
+.header_logo_style {
+  @apply pointer-events-auto flex place-items-center p-8 ml-3;
+}
