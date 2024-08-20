@@ -40,6 +40,7 @@ img {
 }
 html {
   scroll-behavior: smooth;
+  width: 100vw;
 }
 
 /* Header Styles */

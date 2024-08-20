@@ -4,7 +4,7 @@ import ContactInfo from "./ContractInfo";
 
 const Footer = () => {
     return (
-        <footer id={"footer"} className="bg-[#132116] h-auto md:w-full pt-10">
+        <footer id={"footer"} className="bg-[#132116] h-auto w-screen pt-10">
           <div className="grid grid-cols-1 md:grid-row-4 md:grid-cols-2 lg:grid-cols-3">
             
             <div className="flex justify-center items-center md:col-start-1 md:row-start-1">

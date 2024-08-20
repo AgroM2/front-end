@@ -22,7 +22,7 @@ const ContactInfo = () => {
             
                     <p className="max-w-[250px] max-h-[200px] pr-1 text-white">Endereço: Av. Pres. Getúlio Vargas, 426 - Instituto Senai de Tecnologia, 2° Andar, Senaihub - Centro Norte, Cuiabá - MT, 78005-370</p>
                 
-                <div className="flex space-x-10 pb-10">
+                <div className="flex space-x-5 lg:space-x-10 pb-10">
                     <a 
                         href="https://wa.me/556592729267?text=Oi,%20vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20Agro%20M2."
                         target="_blank"

@@ -6,7 +6,7 @@ const Services = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2  2xl:grid-cols-2">
       
         <aside className="mb-8">
-          <ul className="list-disc pl-20 text-4xl lg:text-5xl font-bold space-y-4">
+          <ul className="list-disc md:pl-20 text-4xl lg:text-5xl font-bold space-y-4">
             <li>Planejamento</li>
             <li>Plantio</li>
             <li>Monitoramento</li>
@@ -15,7 +15,7 @@ const Services = () => {
             <li>Comercilização</li>          
           </ul>
           <p className="pl-20 text-2xl mt-4">
-            Saiba mais sobre nossos serviços
+            {/* Saiba mais sobre nossos serviços */}
           </p>
         </aside>
 
@@ -47,7 +47,7 @@ const Services = () => {
 
         <div className="flex flex-col items-center 2xl:col-start-2 2xl:row-start-1 2xl:transform  2xl:translate-y-28">
           <Image
-            className="border-8 border-black rounded-lg  w-[350px] h-[350px] sm:w-[350px] sm:h-[350px] lg:w-[350px] lg:h-[350px] 2xl:w-[700px] 2xl:h-[700px]"
+            className="border-8 border-black rounded-lg  w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[350px] lg:h-[350px] 2xl:w-[700px] 2xl:h-[700px]"
             src="/imgs/FazendeiroTirandoFoto.png"
             alt="Fazendeiro tirando foto da soja"
             width={400}
