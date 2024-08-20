@@ -7,11 +7,11 @@ import Footer from "./components/Footer"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-between text-black">
+    <main className="justify-between text-black w-screen">
       <div id={"home"}></div>
-      <Header/>
+      <Header />
       <FloatingButton />
-      <Banner/>
+      <Banner />
       <Services />
       <Footer />
     </main>
