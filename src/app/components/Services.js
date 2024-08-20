@@ -1,45 +1,63 @@
 import Image from "next/image";
 
 const Services = () => {
-    return (
-        <div className="h-[920px] grid grid-cols-5 grid-rows-6 gap-0 bg-white">
-        <aside className="col-start-1 col-end-3 row-start-2 row-end-4 ">
-          <ul className="list-disc pl-20  w-6/12 text-5xl font-bold">
-            <li>Análise</li>
-            <li>Fornecimento</li>
-            <li>Entrega</li>
+  return (
+    <div className="bg-white pt-10 pb-4 min-w-max">
+      <div className="grid grid-cols-1 lg:grid-cols-2  2xl:grid-cols-2">
+      
+        <aside className="mb-8">
+          <ul className="list-disc pl-20 text-4xl lg:text-5xl font-bold space-y-4">
+            <li>Planejamento</li>
+            <li>Plantio</li>
+            <li>Monitoramento</li>
+            <li>Colheita</li>
+            <li>Pós Colheita</li>
+            <li>Comercilização</li>          
           </ul>
-          <p className="pl-10 text-2xl">Saiba mais sobre nossos serviços</p>
+          <p className="pl-20 text-2xl mt-4">
+            Saiba mais sobre nossos serviços
+          </p>
         </aside>
-        <div className="col-start-2 col-end-3 row-start-4 row-end-6">
-          <Image 
-            src="/imgs/FolhaFitoxidade.png"
-            alt="Folha que apresenta fitoxidade"
-            width={200}
-            height={300}
+
+        <div className="flex justify-center">
+          <div className=" 2xl:transform 2xl:-translate-y-64 2xl:-translate-x-10">
+            <Image
+              src="/imgs/FolhaFitoxidade.png"
+              alt="Folha que apresenta fitoxidade"
+              className="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px]"
+              width={200}
+              height={300}
+            />
+            <div className="z-10 border-black border-2 w-24 h-24 transform -translate-x-12 -translate-y-12"/> 
+          </div>
+        </div>
+
+        <div className="flex justify-center 2xl:justify-start 2xl:transform  2xl:-translate-x-52">
+          <div className="">
+            <Image
+              src="/imgs/FolhaFerrugemDoColmo.png"
+              alt="Folha que apresenta Ferrugem do colmo"
+              className="w-[200px] h-[200px] lg:w-[250px] lg:h-[250px]"
+              width={200}
+              height={300}
             />
             <div className="z-10 border-black border-2 w-24 h-24 transform -translate-x-12 -translate-y-12" /> 
+          </div>
         </div>
-        <div className="pt-20 col-start-3 col-end-4 row-start-1 row-end-3">
-          <Image 
-            src="/imgs/FolhaFerrugemDoColmo.png"
-            alt="Folha que apresenta Ferrugem do colmo"
-            width={200}
+
+        <div className="flex flex-col items-center 2xl:col-start-2 2xl:row-start-1 2xl:transform  2xl:translate-y-28">
+          <Image
+            className="border-8 border-black rounded-lg  w-[350px] h-[350px] sm:w-[350px] sm:h-[350px] lg:w-[350px] lg:h-[350px] 2xl:w-[700px] 2xl:h-[700px]"
+            src="/imgs/FazendeiroTirandoFoto.png"
+            alt="Fazendeiro tirando foto da soja"
+            width={400}
             height={300}
           />
-          <div className="z-10 border-black border-2 w-24 h-24 transform -translate-x-12 -translate-y-12" /> 
         </div>
-        <div className="col-start-4 col-end-6 row-start-2 row-end-6 -translate-x-12">
-          <Image 
-            className="border-8 border-black rounded-lg"
-            src="/imgs/FazendeiroTirandoFoto.jpg"
-            alt="Fazendeiro tirando foto da soja"
-            width={700}
-            height={700}
-          />
-        </div>
+
       </div>
-    );
+    </div>
+  );
 };
 
 export default Services;

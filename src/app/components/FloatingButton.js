@@ -2,7 +2,7 @@ const FloatingButton = () => {
     return (
         <a
         href="https://wa.me/556592729267?text=Oi,%20vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20Agro%20M2."
-        className="fixed bottom-4 right-4 bg-green-500 text-white p-4 z-20 rounded-full shadow-lg hover:bg-green-600 transition-all"
+        className="fixed bottom-28 right-4 bg-green-500 text-white p-4 z-20 rounded-full shadow-lg hover:bg-green-600 transition-all lg:bottom-4"
         target="_blank"
         rel="noopener noreferrer"
       >
