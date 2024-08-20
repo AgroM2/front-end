@@ -9,7 +9,7 @@ const ContactInfo = () => {
                 </h1>
                 <div className="flex">
                     <p className="pr-1 text-white">Telefone: </p>
-                    <p className="text-white">+55 65 9272-9267</p>
+                    <p className="text-white">+55 65 4042-0507</p>
                 </div>
                 <div className="flex">
                     <p className="pr-1 text-white">Email: </p>

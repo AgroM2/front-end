@@ -6,7 +6,7 @@ const Services = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2  2xl:grid-cols-2">
       
         <aside className="mb-8">
-          <ul className="list-disc md:pl-20 text-4xl lg:text-5xl font-bold space-y-4">
+          <ul className="list-disc pl-10 md:pl-20 text-4xl lg:text-5xl font-bold space-y-4">
             <li>Planejamento</li>
             <li>Plantio</li>
             <li>Monitoramento</li>
@@ -20,7 +20,7 @@ const Services = () => {
         </aside>
 
         <div className="flex justify-center">
-          <div className=" 2xl:transform 2xl:-translate-y-64 2xl:-translate-x-10">
+          <div className=" hidden md:block 2xl:transform 2xl:-translate-y-64 2xl:-translate-x-10">
             <Image
               src="/imgs/FolhaFitoxidade.png"
               alt="Folha que apresenta fitoxidade"
@@ -32,7 +32,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="flex justify-center 2xl:justify-start 2xl:transform  2xl:-translate-x-52">
+        <div className="hidden md:flex justify-center 2xl:justify-start 2xl:transform  2xl:-translate-x-52">
           <div className="">
             <Image
               src="/imgs/FolhaFerrugemDoColmo.png"
@@ -47,7 +47,7 @@ const Services = () => {
 
         <div className="flex flex-col items-center 2xl:col-start-2 2xl:row-start-1 2xl:transform  2xl:translate-y-28">
           <Image
-            className="border-8 border-black rounded-lg  w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[350px] lg:h-[350px] 2xl:w-[700px] 2xl:h-[700px]"
+            className="filter shadow-black shadow-md border-black border  md:border-8 md:border-black rounded-lg  w-[250px] h-[250px] sm:w-[350px] sm:h-[350px] lg:w-[350px] lg:h-[350px] 2xl:w-[700px] 2xl:h-[700px]"
             src="/imgs/FazendeiroTirandoFoto.png"
             alt="Fazendeiro tirando foto da soja"
             width={400}
