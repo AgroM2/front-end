@@ -1,7 +1,7 @@
 
 const Banner = () => {
   return (
-    <div className="w-full h-screen object-fill flex items-center justify-center bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imgs/Banner.webp')" }}>
+    <div className="w-full h-screen object-fill flex items-center justify-center bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/imgs/Banner.png')" }}>
       <div className="banner_bg">
         <h1 className="banner_label">
           Do Hectare ao<br /> 

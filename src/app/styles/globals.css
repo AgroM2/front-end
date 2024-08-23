@@ -50,7 +50,7 @@ body {
 
 /* Header Styles */
 .header {
-  @apply z-50 fixed bg-[#ECB417] w-full items-center justify-between p-8 text-sm lg:flex;
+  @apply z-50 fixed bg-[#ECB417] w-full items-center justify-between pt-8 pl-8 pb-4 pr-8 lg:pb-8  text-sm lg:flex;
 }
 
 .header_logo_style {
