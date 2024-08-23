@@ -24,15 +24,16 @@ const ContactInfo = () => {
                 
                 <div className="flex space-x-5 lg:space-x-10 pb-10">
                     <a 
-                        href="https://wa.me/556592729267?text=Oi,%20vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20Agro%20M2."
+                        href="https://www.linkedin.com/company/agro-m2?originalSubdomain=br"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <Image
-                            src="/icons/whatsAppIcon.svg"
-                            alt="Ícone WhatsApp"
+                            src="/icons/linkedinIcon.svg"
+                            alt="Ícone Linkedin"
                             width={24}
                             height={24}
+                            
                         />  
                     </a>
                     <a 
@@ -61,16 +62,15 @@ const ContactInfo = () => {
                         />  
                     </a>
                     <a 
-                        href="https://www.linkedin.com/company/agro-m2?originalSubdomain=br"
+                        href="https://wa.me/556592729267?text=Oi,%20vim%20do%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20Agro%20M2."
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <Image
-                            src="/icons/linkedinIcon.svg"
-                            alt="Ícone Linkedin"
+                            src="/icons/whatsAppIcon.svg"
+                            alt="Ícone WhatsApp"
                             width={24}
                             height={24}
-                            
                         />  
                     </a>
                 </div>      

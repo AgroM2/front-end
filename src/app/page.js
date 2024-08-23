@@ -7,7 +7,7 @@ import Footer from "./components/Footer"
 
 export default function Home() {
   return (
-    <main className="justify-between text-black w-screen">
+    <main className="justify-between text-black w-full max-w-full">
       <div id={"home"}></div>
       <Header />
       <FloatingButton />
