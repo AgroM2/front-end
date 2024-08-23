@@ -32,8 +32,6 @@ body {
   }
 }
 
-/* Custom Tailwind CSS Components */
-
 img {
   height: auto;
   width: auto;
@@ -43,6 +41,13 @@ html {
   width: 100vw;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+/* Custom Tailwind CSS Components */
+
+
 /* Header Styles */
 .header {
   @apply z-50 fixed bg-[#ECB417] w-full items-center justify-between p-8 text-sm lg:flex;
@@ -51,3 +56,24 @@ html {
 .header_logo_style {
   @apply pointer-events-auto flex place-items-center p-8 ml-3;
 }
+
+/* Banner Styles */
+
+.banner_bg {
+  @apply w-full h-full flex flex-col items-start justify-center p-10;
+  background: rgba(236, 180, 23, 0.42);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+  border: 1px solid rgba(236, 180, 23, 0.3);
+}
+
+.banner_label {
+  @apply font-bold text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight;
+}
+
+.banner_content {
+  @apply text-lg sm:text-xl md:text-2xl lg:text-3xl mt-4;
+}
+
+
